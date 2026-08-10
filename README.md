@@ -54,7 +54,7 @@ turns red and the bird starts falling:
 ## 2. Installation
 
 ```bash
-git clone https://github.com/USERNAME/handflap.git
+git clone https://github.com/haroon-aziz/handflap.git
 cd handflap
 
 python3 -m venv .venv
@@ -104,7 +104,7 @@ python main.py --no-panel          # start with the webcam panel hidden
 Copy-paste, from clone to playing:
 
 ```bash
-git clone https://github.com/USERNAME/handflap.git && cd handflap && \
+git clone https://github.com/haroon-aziz/handflap.git && cd handflap && \
 python3 -m venv .venv && source .venv/bin/activate && \
 pip install --upgrade pip && pip install -r requirements.txt && \
 python download_model.py && python main.py
@@ -380,7 +380,7 @@ what makes the game testable without a camera and playable without one.
 
 ## 12. License
 
-[MIT](LICENSE) — do what you like with it.
+[MIT](LICENSE) 
 
 The bundled artwork is generated procedurally by the code itself; no third-party
 game assets are included. The hand landmark model downloaded at setup time is
