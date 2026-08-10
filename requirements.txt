@@ -1,0 +1,7 @@
+# HandFlap dependencies
+# Install with:  pip install -r requirements.txt
+
+mediapipe>=0.10.14          # hand landmark model (Tasks API, or legacy solutions)
+opencv-contrib-python>=4.8  # provides cv2; also required by mediapipe
+pygame>=2.5                 # rendering, input, window
+numpy>=1.24                 # landmark maths and frame buffers
